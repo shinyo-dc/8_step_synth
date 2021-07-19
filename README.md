@@ -34,6 +34,7 @@ lib_deps =
 //                 GND
 ```
 - Analog pins A0, A1, A2, A3, A4 is used, the details about what the signal is used for are includes in the `src/main.cpp` file. The pins are connected respectively with the potentiometers. 
+
 Note (hopefully this is helpful):
  - Don't use the VCC and GND source used on the audio out filter circuit for the potentiometers.
 
