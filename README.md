@@ -1,4 +1,4 @@
-Based on `[the_synth](https://github.com/dzlonline/the_synth)` library:
+Based on [the_synth](https://github.com/dzlonline/the_synth) library:
 
 ## Functionality:
 - Envelope setup (should we use switches or a pot for this?)
@@ -14,7 +14,7 @@ P.S. maybe setup to change the current voice later.
 - Use platformIO for convinient.
 - The `.vscode` folder will change depends on the `$PATH` so you should create an empty project that use `nanoatmega328` as your board or equivalent Arduino Atmega328 board. 
 - Add the files in the `include/` to your project's `include/`
-- Currently the based on project `[bitsynth](https://github.com/akosturi/bitsynth)` are using the library to filter the analog signal's value, me don't do that here but just include it, maybe me will use it sometime.
+- Currently the based on project [bitsynth](https://github.com/akosturi/bitsynth) are using the library to filter the analog signal's value, me don't do that here but just include it, maybe me will use it sometime.
 Add this to your `platformio.ini` file:
 ```
 lib_deps =
